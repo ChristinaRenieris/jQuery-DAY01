@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Grocery</title>
+</head>
+
+<body>
+    <div id="main"></div>
+    <script src="grocery.JSON"></script>
+    <script>
+        var veggies = JSON.parse(items);
+        for (var i = 0; i < veggies.length; i++) {
+
+            var veg = `<div  class="veggies"><img  class="vegIMG" src="${veggies[i].pic}" alt="${veggies[i].name}">
+                <p class="vegStyle"  id = "vegDetails${veggies[i].name}"> Price: ${veggies[i].price} <br> Status: ${veggies[i].status}</p> </div>`;
+
+            document.getElementById('main').innerHTML += veg;
+        }
+    </script>
+</body>
+
+</html>

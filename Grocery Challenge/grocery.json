@@ -1,0 +1,72 @@
+var items = `[{
+        "iD": "f001",
+        "name": "artichoke",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/artichoke.jpg"
+    },
+
+    {
+        "iD": "f002",
+        "name": "broccoli",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/broccoli.jpg"
+    },
+
+    {
+        "iD": "f003",
+        "name": "brussel Sprouts",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/brusselSprouts.jpg"
+    },
+
+    {
+        "iD": "f004",
+        "name": "carrot",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/carrot.jpg"
+    },
+
+    {
+        "iD": "f005",
+        "name": "corn",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/corn.jpg"
+    },
+
+    {
+        "iD": "f006",
+        "name": "garlic",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/garlic.jpg"
+    },
+
+    {
+        "iD": "f007",
+        "name": "japaleno",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/japaleno.jpg"
+    },
+
+    {
+        "iD": "f008",
+        "name": "tomato",
+        "price": "1.99",
+        "status": "not available",
+        "pic": "img/tomato.jpg"
+    },
+
+    {
+        "iD": "f009",
+        "name": "zucchini",
+        "price": "1.99",
+        "status": "available",
+        "pic": "img/zucchini.jpg"
+    }]
+    `;
